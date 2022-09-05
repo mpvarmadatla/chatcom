@@ -1,10 +1,9 @@
 import React from 'react';
 import {Text,View} from 'react-native';
+import ScreenDev from '../ScreenDev';
 
 const CameraBottomScreen = () =>{
-    return <View>
-        <Text>Camera</Text>
-    </View>
+    return <ScreenDev feature="Camera" />
 }
 
 export default CameraBottomScreen;
